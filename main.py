@@ -29,7 +29,7 @@ class Data(BaseModel):
 path = os.path.join('model', 'encoder.pkl')
 encoder = load_model(path)
 
-path = os.path.join('model', 'model_pkl')
+path = os.path.join('model', 'model.pkl')
 model = load_model(path)
 
 # TODO: create a RESTful API using FastAPI
