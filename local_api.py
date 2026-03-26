@@ -32,6 +32,6 @@ r = requests.post(
 )
 
 # TODO: print the status code
-print(r.status_code())
+print(r.status_code)
 # TODO: print the result
 print(r.json())
